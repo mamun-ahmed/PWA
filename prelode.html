@@ -1,0 +1,1084 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>Trukky Apps</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" name="generator">
+    <meta content="" name="author">
+    <meta content="" name="Description">
+    <!-- apps style  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jquery ui  -->
+	  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+	  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+  	$( function() {
+  		$( "#dateofPickup" ).datepicker();
+  		$( "#dateofPickup_shiping" ).datepicker();
+  	} );
+  	</script>  
+
+  </head>
+  <body>
+    <div class="allWrapper">  
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0" id="step1">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="pickup-city">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Select Service</h1>
+            <p>Verified Drivers On time Delivery No Hidden Charges <a href="#" class="knowMore">Know More</a></p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-choose-service">
+            <ul class="apps-service-list">
+              <li>
+                <div class="radio">
+                  <input id="radio1" name="radio" type="radio" checked>
+                  <label for="radio1" class="radio-label">Ful Truck Load <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!-- end of li -->
+              <li>
+                <div class="radio">
+                  <input id="radio2" name="radio" type="radio">
+                  <label for="radio2" class="radio-label">Partload & Parcel <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!--end of li  -->
+            </ul>
+            <a class="next-btn" onclick="next_function('step_1')" href="#">Next &#8594;</a> 
+          </div><!-- end of apps-choose-service -->                       
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step2">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service2">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_2')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Select Service</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-choose-service">
+            <ul class="apps-service-list">
+              <li>
+                <div class="radio">
+                  <input id="radio-1" name="radio" type="radio" checked>
+                  <label for="radio-1" class="radio-label">For Sale <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!-- end of li -->
+              <li>
+                <div class="radio">
+                  <input id="radio-2" name="radio" type="radio">
+                  <label for="radio-2" class="radio-label">Business <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!--end of li  -->
+              <li>
+                <div class="radio">
+                  <input id="radio-3" name="radio" type="radio">
+                  <label  for="radio-3" class="radio-label">Household <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!-- end of li -->
+            </ul>
+            <a class="next-btn" onclick="next_function('step_2')" href="#">Next &#8594;</a> 
+          </div><!-- end of apps-choose-service -->                       
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step3">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service3">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_3')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Mateial Type</h1>
+            <p class=" ">Type Single/ Multiple materials type Or Choose from the list</p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-enter-city-area blackShadow2">
+            <div class="apps-pickup-city apps-enter-value bluBgColor">
+              <input type="text" value="Type Here (e.g. Sofa, Machine)" onblur="if(this.value=='')this.value='Type Here (e.g. Sofa, Machine)'" onfocus="if(this.value=='Type Here (e.g. Sofa, Machine)')this.value=''" name="enterDropCity" id="enterDropCity" class="apps-enter-fild appsBluFild">
+            </div><!-- end of app-page-pickup-city -->  
+          </div><!-- end of apps-center-city-area -->
+
+          <div class="apps-choose-service">
+            <ul class="apps-service-list apps_servicelist2">
+              <li>
+                <div class="radio">
+                  <input id="radio_1" name="radio" type="radio" checked>
+                  <label for="radio_1" class="radio-label">Mix Materials</label>
+                </div>
+              </li><!-- end of li -->
+              <li>
+                <div class="radio">
+                  <input id="radio_2" name="radio" type="radio">
+                  <label for="radio_2" class="radio-label">Machine</label>
+                </div>
+              </li><!--end of li  -->
+              <li>
+                <div class="radio">
+                  <input id="radio_3" name="radio" type="radio">
+                  <label  for="radio_3" class="radio-label">Box</label>
+                </div>
+              </li><!-- end of li -->
+              <li>
+                <div class="radio">
+                  <input id="radio_4" name="radio" type="radio">
+                  <label  for="radio_4" class="radio-label">Toy</label>
+                </div>
+              </li><!-- end of li -->
+            </ul>
+            <a class="next-btn" onclick="next_function('step_3')" href="#">Next &#8594;</a> 
+          </div><!-- end of apps-choose-service -->                       
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step4">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service4">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_4')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Add Details of <span>Box</span></h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="secLabel">
+            <p>Number of Box</p>
+          </div><!-- end of secLabel -->
+          <div class="itemNumber">
+            <button type="button" class="btn-minus">-</button>
+            <input type="text" name="quantity" value="0" class="quantity">
+            <button type="button" class="btn-plus">+</button>
+          </div><!-- end of itemNumber -->
+
+          <div class="apps_inputField">
+            <ul class="serviceField serviceField2">
+              <li>
+                <label for="fieldWn">Per Box Weight - (in KG)</label>
+                <input type="text" value="0" onblur="if(this.value=='')this.value='0'" onfocus="if(this.value=='0')this.value=''" name="fieldWn" id="fieldWn" class="fieldWn">
+              </li><!--end of li  -->
+            </ul> 
+          </div><!-- end of apps_inputField -->
+          
+          <div class="apps_noticeTxt">
+            <p>You can add multiple item after this</p>
+          </div><!-- end of apps_noticeTxt -->
+          <a class="next-btn" onclick="next_function('step_4')" href="#">Next &#8594;</a>
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step5">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service5">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_5')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Dimensions of <span>Box</span></h1>
+            <p>Choose the unit of Dimesions</p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="radioBtn">
+            <input type="radio" name="radio" id="radio01"><label for="radio01">cm</label> 
+            <input type="radio" name="radio" id="radio02"><label for="radio02">mm</label>
+            <input type="radio" name="radio" id="radio03"><label for="radio03">in</label>
+            <input type="radio" name="radio" id="radio04"><label for="radio04">ft</label>
+          </div>
+
+          <div class="apps-choose-service">
+            <ul class="serviceField">
+              <li>
+                <input type="text" value="Length" onblur="if(this.value=='')this.value='Length'" onfocus="if(this.value=='Length')this.value=''" name="fieldL" id="fieldL" class="fieldL">
+              </li><!-- end of li -->
+              <li>
+                <input type="text" value="Width" onblur="if(this.value=='')this.value='Width'" onfocus="if(this.value=='Width')this.value=''" name="fieldW" id="fieldW" class="fieldW">
+              </li><!--end of li  -->
+              <li>
+                <input type="text" value="Height" onblur="if(this.value=='')this.value='Height'" onfocus="if(this.value=='Height')this.value=''" name="fieldH" id="fieldH" class="fieldH">
+              </li><!-- end of li -->
+            </ul>
+
+          </div><!-- end of apps-choose-service -->
+
+          <div class="apps_addItem">
+            <img src="images/apps_plus_icon.png" alt="">
+            <a id="modal_open_1" href="#"> Add Another Item</a>
+          </div><!-- end of apps_addItem -->
+
+          <div class="apps_row apps_btnG">
+            <div class="apps_col noPaddingLeft">
+              <a class="btnBorder" href="#"><span>How to Calulate Dimensions?</span> Need Help?</a>
+            </div><!-- end of apps_col6 -->
+            <div class="apps_col noPaddingRight">
+              <a class="next-btn nxtBtn2" onclick="next_function('step_5')" href="#">Get Fare &#10230;</a>
+            </div><!-- end of apps_col6 -->
+          </div><!-- end of apps_btnG -->             
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step6">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service6">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_6')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Add Dimessions</h1>
+            <p>Verified Drivers On time Delivery No Hidden Charges</p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps_showDimes">
+            <ul class="apps_showDimList">
+              <li><span class="apps_dimDone">Done</span></li>
+              <li><span class="apps_dimDetails"> Sofa - 10x10x10</span></li>
+              <li><a href="#" class="apps_addD">+ Edit</a></li>
+              <li><a href="#" class="apps_delD">- Delete</a></li>
+            </ul><!-- end of apps_showDimList -->
+          </div><!-- end of showDimes -->
+
+          <div class="apps_addDimssionos">
+            <ul class="apps_singleAddDimList">
+              <li class="apps_singleItemaddD">
+                <div class="apps_addItemName"><span class="apps_dItemNum">Item 2</span><span class="apps_dItemName">Machine</span></div>
+                <div class="apps_addBtn"><a href="#" id="modal_open_3" class="apps_addBtnD">+ Add Dimessions</a></div>
+              </li><!-- end of li -->
+              <li class="apps_singleItemaddD">
+                <div class="apps_addItemName"><span class="apps_dItemNum">Item 2</span><span class="apps_dItemName">Machine</span></div>
+                <div class="apps_addBtn"><a href="#" id="modal_open_4" class="apps_addBtnD">+ Add Dimessions</a></div>
+              </li><!-- end of li -->
+              <li class="apps_singleItemaddD">
+                <div class="apps_addItemName"><span class="apps_dItemNum">Item 2</span><span class="apps_dItemName">Machine</span></div>
+                <div class="apps_addBtn"><a href="#" id="modal_open_5" class="apps_addBtnD">+ Add Dimessions</a></div>
+              </li><!-- end of li -->
+            </ul><!-- end of apps_singleAddDimList -->
+          </div><!-- end of apps_addDimssionos -->
+
+          <div class="apps_row apps_btnG">
+            <div class="apps_col noPaddingLeft">
+              <a class="btnBorder" href="#"><span>How to Calulate Dimensions?</span> Need Help?</a>
+            </div><!-- end of apps_col -->
+            <div class="apps_col noPaddingRight">
+              <a class="next-btn nxtBtn2" onclick="next_function('step_6')" href="#">Get Fare &#10230;</a>
+            </div><!-- end of apps_col -->
+          </div><!-- end of apps_btnG -->
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step7">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service7">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_7')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Enter Dimension</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps_addNewItem">
+            <p>Add Item 1 Dimensions</p>
+          </div><!-- end of apps_addNewItem -->
+
+          <div class="apps_inputField apps_fieldInput">
+            <ul class="serviceField apps_row">
+              <li class="apps_col12">
+                <label for="whl">Enter Dimenssions</label>
+                <input type="text" value="Enter here L x W x H" onblur="if(this.value=='')this.value='Enter here L x W x H'" onfocus="if(this.value=='Enter here L x W x H')this.value=''" name="whl" id="whl" class="apps-enter-fild">
+                <a href="#" class="apps_hc">How to Calulate ?</a>
+              </li><!--end of li  -->
+              <li class="apps_col6">
+                <label for="noi">Number of Item</label>
+                <div class="itemNumber apps_itemNumStl1">
+                  <button type="button" class="btn-minus">-</button>
+                  <input type="text" name="quantity" value="0" class="quantity">
+                  <button type="button" class="btn-plus">+</button>
+                </div><!-- end of itemNumber -->
+              </li><!--end of li  -->
+              <li class="apps_col6">
+                <label for="fw">Total Weight-(KG)</label>
+                <input type="text" value="0" onblur="if(this.value=='')this.value='0'" onfocus="if(this.value=='0')this.value=''" name="fw" id="fw" class="apps-enter-fild">
+              </li><!--end of li  -->
+
+            </ul> 
+          </div><!-- end of apps_inputField -->
+
+          <div class="apps_addItem apps_addItem2">
+            <img src="images/apps_plus_icon.png" alt="">
+            <a id="modal_open_1" href="#"> Add Another Item</a>
+          </div><!-- end of apps_addItem -->
+
+          <a class="next-btn" onclick="next_function('step_7')" href="#">Next &#8594;</a>
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step8">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service8">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_8')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Total Material Value</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps_inputField apps_fieldInput">
+            <ul class="serviceField">
+              <li>
+                <input type="text" value="Enter Invoice Value" onblur="if(this.value=='')this.value='Enter Invoice Value'" onfocus="if(this.value=='Enter Invoice Value')this.value=''" name="eiv" id="eiv" class="apps-enter-fild">
+              </li><!--end of li  -->
+
+            </ul> 
+          </div><!-- end of apps_inputField -->
+
+          <a class="next-btn" onclick="next_function('step_8')" href="#">Next &#8594;</a>
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0 hide_section" id="step9">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="service9">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_9')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>How to Calculate ?</h1>
+            <p>Verified Drivers On time Delivery No Hidden Charges</p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps_inputField apps_fieldInput">
+            <ul class="serviceFieldCal">
+              <li>
+                <img src="images/apps_boxs_cal.jpg" alt="">
+                <p>Box</p>
+              </li><!--end of li  -->
+
+              <li>
+                <img src="images/apps_boxs_cal.jpg" alt="">
+                <p>Box</p>
+              </li><!--end of li  -->
+
+              <li>
+                <img src="images/apps_boxs_cal.jpg" alt="">
+                <p>Box</p>
+              </li><!--end of li  -->
+
+              <li>
+                <img src="images/apps_boxs_cal.jpg" alt="">
+                <p>Box</p>
+              </li><!--end of li  -->
+
+            </ul> 
+          </div><!-- end of apps_inputField -->
+          
+          <div class="apps_row apps_btnG">
+            <div class="apps_col noPaddingLeft">
+              <a class="next-btn" onclick="next_function('step_9')" href="#">Okay</a>
+            </div><!-- end of apps_col -->
+            <div class="apps_col noPaddingRight">
+              <a class="needHelp" href="#">Need Help?</a>
+            </div><!-- end of apps_col -->
+          </div><!-- end of apps_row-->
+
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->
+
+      <section class="apps-materaial-type clearfix apps_lightBg sectionGap pt-0 hide_section" id="step10">
+
+        <div class="app-page-materaial-type clearfix apps_lightBg" id="service10">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('step_10')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+                
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Pickup Date</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-shiping-form">
+            <form>
+              <ul class="apps-form-body">
+                <li class="apps-col12">
+                  <input type="text" value="Select Date of Pick up" onblur="if(this.value=='')this.value='Select Date of Pick up'" onfocus="if(this.value=='Select Date of Pick up')this.value=''" name="dateofPickup" id="dateofPickup" class="dateofPickup">
+                </li>
+              </ul>
+              <a class="next-btn"  onclick="next_function('step_10')" href="#">Next &#8594;</a>
+            </form>
+          </div><!-- end of apps-shiping-form -->
+
+        </div><!-- end of apps-container -->
+      </section><!-- end of apps-shiping-details -->
+
+      <section class="apps-last-step clearfix apps_lightBg sectionGap pt-0 hide_section" id="last-step">
+        <div class="app-page-materaial-type clearfix apps_lightBg" id="service11">
+          <div class="apps-enter-city-area blackBorderBtm">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('last-step')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+                
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Last Step</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-shiping-form">
+            <form>
+              <ul class="apps-form-body">
+                <li class="apps-col12">
+                  <label>Enter your phone number</label>
+                  <input type="text" value="Enter 10 digital number" onblur="if(this.value=='')this.value='Enter 10 digital number'" onfocus="if(this.value=='Enter 10 digital number')this.value=''" name="enterPhnNumber" id="enterPhnNumber" class="enterPhnNumber">
+                </li>
+              </ul>
+            </form>
+            
+            <div class="apps_notice_box">
+              <img src="images/apps_g_checkbox_icon_img.png" alt="">
+              <p> We will not share your phone<br>  number with any body </p>
+            </div><!-- end of apps_notice_box -->
+
+            <div class="apps_our_clients">
+              <h6>5000+ trusted Clients in India</h6>
+              <ul class="apps_client_list">
+                <li><a href="#"><img src="images/partner_01.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_02.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_04.jpg" alt=""></a></li>
+              </ul>
+            </div><!-- end of apps_our_clients -->
+
+            <div class="app-bookTruck">
+              <button id="modal_open_2" type="button" class="getQuote">Check Final Fare &#8594;</button>
+            </div><!-- end of fixBtn -->
+          </div><!-- end of apps_content -->
+
+        </div><!-- end of apps-container -->
+      </section><!-- end of last-step -->
+
+      <div class="modal-overlay hide apps_modal2" id="modal_window" aria-hidden="true" role="dialog" aria-labelledby="modal_title">
+
+        <div class="modal-content" id="modal_holder" role="document">
+          <div class="modal_header modalHeader2">
+            <a href="#"><img src="images/arrow_back_icons.png" alt=""></a>
+            <p>Dimenssions</p>
+          </div><!-- end of modal_header -->
+
+          <div class="modal_body">
+            <p>Choose the unit of Dimesions</p>
+            <div class="radioBtn">
+              <input type="radio" name="radio" id="radio011"><label for="radio011">cm</label> 
+              <input type="radio" name="radio" id="radio022"><label for="radio022">mm</label>
+              <input type="radio" name="radio" id="radio033"><label for="radio033">in</label>
+              <input type="radio" name="radio" id="radio044"><label for="radio044">ft</label>
+            </div><!-- end of radioBtn -->
+
+            <div class="apps_modalInputG">
+              <input type="text" value="Length" onblur="if(this.value=='')this.value='Length'" onfocus="if(this.value=='Length')this.value=''" name="mfieldL" id="mfieldL" class="mfieldL">
+              <input type="text" value="Width" onblur="if(this.value=='')this.value='Width'" onfocus="if(this.value=='Width')this.value=''" name="mfieldW" id="mfieldW" class="mfieldW">
+              <input type="text" value="Height" onblur="if(this.value=='')this.value='Height'" onfocus="if(this.value=='Height')this.value=''" name="mfieldH" id="mfieldH" class="mfieldH">
+            </div><!-- end of apps_modalInputG -->
+
+            <div class="apps_row apps_modalDf">
+              <div class="apps_col6">
+                <label>Number of Item</label>
+                <div class="itemNumber modal_ItemNumber">
+                  <button type="button" class="btn-minus">-</button>
+                  <input type="text" name="quantity" value="0" class="quantity">
+                  <button type="button" class="btn-plus">+</button>
+                </div><!-- end of itemNumber -->
+              </div><!-- end of apps_col6 -->
+              <div class="apps_col6">
+                <label for="mfw">Weight</label>
+                <input type="text" value="" onblur="if(this.value=='')this.value=''" onfocus="if(this.value=='')this.value=''" name="mfw" id="mfw" class="apps-enter-fild">
+              </div><!-- end of apps_col6 -->
+            </div><!-- end of apps_row -->
+
+            <a class="next-btn btnYellow" href="#">Okay</a>
+          </div><!-- end of modal_body -->
+
+        </div> <!-- end of modal-content -->
+      </div> <!-- end of modal-overlay -->
+
+    </div><!-- end of allWrapper -->
+
+    <script>
+      // modal window
+      (function() {
+
+        'use strict';
+
+        // list out the vars
+        var mOverlay  = getId('modal_window'),
+            mOpen1    = getId('modal_open_1'),
+            mOpen2    = getId('modal_open_2'),
+            mOpen3    = getId('modal_open_3'),
+            mOpen4    = getId('modal_open_4'),
+            mOpen5    = getId('modal_open_5'),
+            mClose    = getId('modal_close'),
+            modal     = getId('modal_holder'),
+            allNodes  = document.querySelectorAll("*"),
+            modalOpen = false,
+            lastFocus,
+            i;
+
+        // Let's cut down on what we need to type to get an ID
+        function getId ( id ) {
+          return document.getElementById(id);
+        }
+
+
+        // Let's open the modal
+        function modalShow () {
+          lastFocus = document.activeElement;
+          mOverlay.setAttribute('aria-hidden', 'false');
+          modalOpen = true;
+          modal.setAttribute('tabindex', '0');
+          modal.focus();
+        }
+
+        function modalClose ( event ) {
+          if (modalOpen && ( !event.keyCode || event.keyCode === 27 ) ) {
+            mOverlay.setAttribute('aria-hidden', 'true');
+            modal.setAttribute('tabindex', '-1');
+            modalOpen = false;
+            lastFocus.focus();
+          }
+        }
+
+        function focusRestrict ( event ) {
+          if ( modalOpen && !modal.contains( event.target ) ) {
+            event.stopPropagation();
+            modal.focus();
+          }
+        }
+
+        mOverlay.addEventListener('click', function( e ) {
+          if (e.target == modal.parentNode) {
+             modalClose( e );
+           }
+        }, false);
+
+
+        // open modal by btn click/hit
+        mOpen1.addEventListener('click', modalShow);
+        mOpen2.addEventListener('click', modalShow);
+        mOpen3.addEventListener('click', modalShow);
+        mOpen4.addEventListener('click', modalShow);
+        mOpen5.addEventListener('click', modalShow);
+    
+    
+
+        // close modal by btn click/hit
+        mClose.addEventListener('click', modalClose);
+
+        // close modal by keydown, but only if modal is open
+        document.addEventListener('keydown', modalClose);
+
+        // restrict tab focus on elements only inside modal window
+        for (i = 0; i < allNodes.length; i++) {
+          allNodes.item(i).addEventListener('focus', focusRestrict);
+        }
+
+      })();
+    </script>
+
+    <script>
+      function toggleItem(elem) {
+        for (var i = 0; i < elem.length; i++) {
+          elem[i].addEventListener("click", function(e) {
+            var current = this;
+            for (var i = 0; i < elem.length; i++) {
+              if (current != elem[i]) {
+                elem[i].classList.remove('selected');
+              } else if (current.classList.contains('selected') === true) {
+                current.classList.remove('selected');
+              } else {
+                current.classList.add('selected')
+              }
+            }
+            e.preventDefault();
+          });
+        };
+      }
+      toggleItem(document.querySelectorAll('.singleTrips'));
+    </script>
+
+
+    <script>
+      // Next Function
+       function next_function(section_name) {
+          var  first_element  = document.getElementById("step1"),
+               second_element = document.getElementById("step2"),
+               third_element = document.getElementById("step3"),
+               fourth_element  = document.getElementById("step4"),
+               fiveth_element  = document.getElementById("step5"),
+               sixth_element  = document.getElementById("step6"),
+               seventh_element  = document.getElementById("step7"),
+               eightth_element  = document.getElementById("step8"),
+               nineth_element  = document.getElementById("step9"),
+               tenth_element  = document.getElementById("step10"),
+               eleven_element = document.getElementById("last-step");
+
+          if(section_name == 'step_1'){
+              first_element.classList.add("hide_section");
+              second_element.classList.remove("hide_section");
+              third_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_2'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.remove("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_3'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.remove("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_4'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.remove("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_5'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.remove("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_6'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.remove("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_7'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.remove("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_8'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.remove("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_9'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.remove("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_10'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.remove("hide_section");
+          }    
+      }
+
+      // Previous Function
+      function previous_function(section_name) {
+          var  first_element  = document.getElementById("step1"),
+               second_element = document.getElementById("step2"),
+               third_element = document.getElementById("step3"),
+               fourth_element  = document.getElementById("step4"),
+               fiveth_element  = document.getElementById("step5"),
+               sixth_element  = document.getElementById("step6"),
+               seventh_element  = document.getElementById("step7"),
+               eightth_element  = document.getElementById("step8"),
+               nineth_element  = document.getElementById("step9"),
+               tenth_element  = document.getElementById("step9"),
+               eleven_element = document.getElementById("last-step");
+
+          if(section_name == 'step_1'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_2'){
+              first_element.classList.remove("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_3'){
+              first_element.classList.add("hide_section");
+              second_element.classList.remove("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_4'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.remove("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_5'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.remove("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_6'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.remove("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_7'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.remove("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_8'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.remove("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_9'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.remove("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          }else if(section_name == 'step_10'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.remove("hide_section");
+              tenth_element.classList.add("hide_section");
+              eleven_element.classList.add("hide_section");
+          } else if(section_name == 'last-step'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              sixth_element.classList.add("hide_section");
+              seventh_element.classList.add("hide_section");
+              eightth_element.classList.add("hide_section");
+              nineth_element.classList.add("hide_section");
+              tenth_element.classList.remove("hide_section");
+              eleven_element.classList.add("hide_section");
+          }  
+      }
+
+    </script>
+
+    <script type="text/javascript">
+      "use strict";
+      var btnMinus = document.querySelector(".btn-minus");
+      var btnPlus = document.querySelector(".btn-plus");
+      var input = document.querySelector(".quantity");
+
+      btnMinus.addEventListener("click", function(event) {
+        var target = event.target;
+        var input = target.nextElementSibling;
+        var inputValue = parseInt(input.getAttribute("value")-1);
+
+        if (inputValue < 1) {
+          inputValue = 1;
+        }
+
+        input.setAttribute("value", inputValue);
+        input.value = parseInt(input.getAttribute("value"));
+      });
+
+      btnPlus.addEventListener("click", function(event) {
+        var target = event.target;
+        var input = target.previousElementSibling;
+        var inputValue = parseInt(input.getAttribute("value")) + 1;
+
+        input.setAttribute("value", inputValue);
+        input.value = parseInt(input.getAttribute("value"));
+      });
+
+      input.addEventListener("keydown", function(event) {
+        var target = event.target;
+        var codes = [46, 8, 9, 27, 13, 110, 190];
+
+        if (
+          codes.indexOf(event.keyCode) !== -1 ||
+          (event.keyCode === 65 &&
+            (event.ctrlKey === true || event.metaKey === true)) ||
+          (event.keyCode >= 35 && event.keyCode <= 40)
+        ) {
+          return;
+        }
+
+        if (
+          (event.shiftKey || (event.keyCode < 48 || event.keyCode > 57)) &&
+          (event.keyCode < 96 || event.keyCode > 105)
+        ) {
+          event.preventDefault();
+        }
+      });
+
+      input.addEventListener("keyup", function(event) {
+        var target = event.target;
+        target.setAttribute("value", target.value);
+      });
+
+    </script>
+    
+
+  </body>
+</html>

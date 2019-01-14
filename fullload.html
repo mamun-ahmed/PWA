@@ -1,0 +1,482 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- title -->
+    <title>Trukky Apps</title>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" name="generator">
+    <meta content="" name="author">
+    <meta content="" name="Description">
+    <!-- apps style  -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- jquery ui  -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script>
+  	$( function() {
+  		$( "#dateofPickup" ).datepicker();
+  		$( "#dateofPickup_shiping" ).datepicker();
+  	} );
+  	</script>  
+
+  </head>
+  <body>
+    <div class="allWrapper">  
+
+      <section class="apps-select-services clearfix apps_lightBg sectoinGap pt-0" id="select-service">
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="pickup-city">
+          <div class="apps-enter-city-area blackShadow">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>                    
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Select Service</h1>
+            <p>Verified Drivers On time Delivery No Hidden Charges <a href="#" class="knowMore">Know More</a></p>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-choose-service">
+            <ul class="apps-service-list">
+              <li>
+                <div class="radio">
+                  <input id="radio-1" name="radio" type="radio" checked>
+                  <label for="radio-1" class="radio-label">Ful Truck Load <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!-- end of li -->
+              <li>
+                <div class="radio">
+                  <input id="radio-2" name="radio" type="radio">
+                  <label for="radio-2" class="radio-label">Part Truck Load <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!--end of li  -->
+              <li>
+                <div class="radio">
+                  <input id="radio-3" name="radio" type="radio">
+                  <label  for="radio-3" class="radio-label">Parcel <span>Upto 6 Ton to 20 Ton</span></label>
+                </div>
+              </li><!-- end of li -->
+            </ul>
+            <a class="next-btn" onclick="next_function('select_service')" href="#">Next &#8594;</a> 
+          </div><!-- end of apps-choose-service -->                       
+        </div><!-- end of apps-container -->          
+      </section><!-- end of apps-select-services -->   
+
+      <section class="apps-select-vehicle clearfix apps_lightBg sectionGap pt-0 hide_section" id="select-vehicle">
+
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="pickup-city">
+          <div class="apps-enter-city-area blackShadow">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('select_vehicle')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+                
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Select Vehicle</h1>
+            <p>Please select a vehicle as per your requirement. The final cost may change depending upon material and dates of shipment.</p>
+          </div><!-- end of sectionTitle -->
+
+          <ul class="apps-vehicle-list">
+            <li class="singleTripss">
+              <div class="radio">
+                <input id="radio1" name="radio" type="radio" checked>
+                <label for="radio1" class="radio-label lableDes">
+                  <img src="images/truk_img_01.jpg" alt="">
+                  <div class="apps_v_c">
+                    <span class="apps_tr_fit">Eitcher- 14 ft</span><span class="apps_ton">Capacity : 9Ton  | L- 6 x H -4 x W- 20 Ft</span>
+                  </div>
+                </label>
+              </div><!-- end of radio -->
+            </li><!-- end of singleTrips -->
+            
+            <li class="singleTripss">
+              <div class="radio">
+                <input id="radio2" name="radio" type="radio">
+                <label for="radio2" class="radio-label lableDes">
+                  <img src="images/truk_img_01.jpg" alt=""> 
+                  <div class="apps_v_c">
+                    <span class="apps_tr_fit">Eitcher- 14 ft</span><span class="apps_ton">Capacity : 9Ton  | L- 6 x H -4 x W- 20 Ft</span>
+                  </div>
+                </label>
+              </div><!-- end of radio -->
+            </li><!-- end of singleTrips -->
+
+            <li class="singleTripss">
+              <div class="radio">
+                <input id="radio3" name="radio" type="radio">
+                <label for="radio3" class="radio-label lableDes">
+                <img src="images/truk_img_01.jpg" alt=""> 
+                <div class="apps_v_c">
+                  <span class="apps_tr_fit">Eitcher- 14 ft</span><span class="apps_ton">Capacity : 9Ton  | L- 6 x H -4 x W- 20 Ft</span>
+                </div>
+              </label>
+              </div><!-- end of radio -->
+            </li><!-- end of singleTrips -->
+
+            <li class="singleTripss">
+              <div class="radio">
+                <input id="radio4" name="radio" type="radio">
+                <label for="radio4" class="radio-label lableDes">
+                <img src="images/truk_img_01.jpg" alt=""> 
+                <div class="apps_v_c">
+                  <span class="apps_tr_fit">Eitcher- 14 ft</span><span class="apps_ton">Capacity : 9Ton  | L- 6 x H -4 x W- 20 Ft</span>
+                </div>
+              </label>
+              </div><!-- end of radio -->
+            </li><!-- end of singleTrips -->
+
+
+          </ul><!-- end of apps-vehicle-list -->
+          <a class="next-btn" onclick="next_function('select_vehicle')" href="#">Next &#8594;</a>
+        </div><!-- end of apps-container -->
+      </section><!-- end of apps-select-vehicle -->
+
+      <section class="apps-materaial-type clearfix apps_lightBg sectionGap pt-0 hide_section" id="materaial-type">
+
+        <div class="app-page-materaial-type clearfix apps_lightBg" id="enter-materaial-type">
+          <div class="apps-enter-city-area blackShadow">
+            <div class="apps-container">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('material_type')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+                
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Pickup Date</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-shiping-form">
+            <form>
+              <ul class="apps-form-body">
+                <li class="apps-col12">
+                  <input type="text" value="Select Date of Pick up" onblur="if(this.value=='')this.value='Select Date of Pick up'" onfocus="if(this.value=='Select Date of Pick up')this.value=''" name="dateofPickup" id="dateofPickup" class="dateofPickup">
+                </li>
+              </ul>
+              <a class="next-btn"  onclick="next_function('material_type')" href="#">Next &#8594;</a>
+            </form>
+          </div><!-- end of apps-shiping-form -->
+
+        </div><!-- end of apps-container -->
+      </section><!-- end of apps-shiping-details -->
+
+      <section class="apps-shiping-details clearfix apps_lightBg sectionGap pt-0 hide_section" id="shiping-details">
+
+        <div class="app-page-pickup-city clearfix apps_lightBg" id="pickup-city">
+          <div class="apps-enter-city-area">
+            <div class="apps-container blackBorderBtm">
+              <div class="apps-pickup-city apps-enter-value ">
+                <a href="#" onclick="previous_function('shiping_details')" class="arrowBack"><img src="images/arrow_back_icons.png" alt=""></a>
+                
+                <ul class="apps-searchCity-list apps-align-right">
+                  <li>Mumbai </li>
+                  <li>Delhi</li>
+                  <li><a href="#">X</a></li>
+                </ul>
+              </div><!-- end of app-page-pickup-city -->
+            </div><!-- end of apps-container -->
+          </div><!-- end of apps-center-city-area -->
+        </div><!-- end of apps-pickup-city -->
+
+        <div class="apps-container">
+          <div class="apps-shiping-form apps_materaial_form">
+            <form>
+              <ul class="apps-form-body">
+                <li class="apps-col12 blackShadow shadow2">
+                  <input type="text" value="Enter  Materaial type" onblur="if(this.value=='')this.value='Enter  Materaial type'" onfocus="if(this.value=='Enter  Materaial type')this.value=''" name="enterMateraialtype" id="enterMateraialtype" class="apps-enter-fild">
+                </li>
+                <li><p>or Choose Material from list</p></li>
+              </ul>
+              <ul class="apps-service-list">
+                <li>
+                  <div class="radio">
+                    <input id="radio-01" name="radio" type="radio" checked="">
+                    <label for="radio-01" class="radio-label">Ful Truck Load</label>
+                  </div>
+                </li><!-- end of li -->
+                <li>
+                  <div class="radio">
+                    <input id="radio-02" name="radio" type="radio">
+                    <label for="radio-02" class="radio-label">Ful Truck Load</label>
+                  </div>
+                </li><!--end of li  -->
+                <li>
+                  <div class="radio">
+                    <input id="radio-03" name="radio" type="radio">
+                    <label for="radio-03" class="radio-label">Ful Truck Load </label>
+                  </div>
+                </li><!-- end of li -->
+              </ul>
+              <a class="next-btn"  onclick="next_function('shiping_details')" href="#">Next &#8594;</a>
+            </form>
+          </div><!-- end of apps-shiping-form -->
+
+        </div><!-- end of apps-container -->
+      </section><!-- end of apps-shiping-details -->
+
+      <section class="apps-last-step clearfix apps_lightBg sectionGap hide_section" id="last-step">
+        <div class="apps-container">
+          <div class="sectionTitleBig">
+            <h1>Last Step</h1>
+          </div><!-- end of sectionTitle -->
+
+          <div class="apps-shiping-form">
+            <form>
+              <ul class="apps-form-body">
+                <li class="apps-col12">
+                  <label>Enter your phone number</label>
+                  <input type="text" value="Enter 10 digital number" onblur="if(this.value=='')this.value='Enter 10 digital number'" onfocus="if(this.value=='Enter 10 digital number')this.value=''" name="enterPhnNumber" id="enterPhnNumber" class="enterPhnNumber">
+                </li>
+              </ul>
+            </form>
+            
+            <div class="apps_notice_box">
+              <img src="images/apps_g_checkbox_icon_img.png" alt="">
+              <p> We will not share your phone<br>  number with any body </p>
+            </div><!-- end of apps_notice_box -->
+
+            <div class="apps_our_clients">
+              <h6>5000+ trusted Clients in India</h6>
+              <ul class="apps_client_list">
+                <li><a href="#"><img src="images/partner_01.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_02.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_03.jpg" alt=""></a></li>
+                <li><a href="#"><img src="images/partner_04.jpg" alt=""></a></li>
+              </ul>
+            </div><!-- end of apps_our_clients -->
+
+            <div class="app-bookTruck">
+              <button id="modal_open" type="button" class="getQuote">Check Final Fare &#8594;</button>
+            </div><!-- end of fixBtn -->
+          </div><!-- end of apps_content -->
+
+        </div><!-- end of apps-container -->
+      </section><!-- end of last-step -->
+
+
+      <div class="modal-overlay hide" id="modal_window" aria-hidden="true" role="dialog" aria-labelledby="modal_title">
+
+        <div class="modal-content" id="modal_holder" role="document">
+          <div class="modal_header">
+            <h1 id="modal_title" class="modalTitle">Enter OTP</h1>
+            <p>An Otp has been sent to your number 7895788535</p>
+            <a class="modalEdit" href="#">Edit</a>
+          </div><!-- end of modal_header -->
+
+          <div class="modal_body">
+            <form class="modal_form">
+              <input type="text" value="Enter OTP" onblur="if(this.value=='')this.value='Enter OTP'" onfocus="if(this.value=='Enter OTP')this.value=''" name="enterOTP" id="enterOTP" class="enterOTP">
+            </form>
+            <button class="modal_getQuote">Get Quote</button>
+          </div><!-- end of modal_body -->
+
+        </div> <!-- end of modal-content -->
+      </div> <!-- end of modal-overlay -->
+
+    </div><!-- end of allWrapper -->
+
+    <script>
+      // modal window
+      (function() {
+
+        'use strict';
+
+        // list out the vars
+        var mOverlay = getId('modal_window'),
+            mOpen = getId('modal_open'),
+            mClose = getId('modal_close'),
+            modal = getId('modal_holder'),
+            allNodes = document.querySelectorAll("*"),
+            modalOpen = false,
+            lastFocus,
+            i;
+
+
+        // Let's cut down on what we need to type to get an ID
+        function getId ( id ) {
+          return document.getElementById(id);
+        }
+
+
+        // Let's open the modal
+        function modalShow () {
+          lastFocus = document.activeElement;
+          mOverlay.setAttribute('aria-hidden', 'false');
+          modalOpen = true;
+          modal.setAttribute('tabindex', '0');
+          modal.focus();
+        }
+
+        function modalClose ( event ) {
+          if (modalOpen && ( !event.keyCode || event.keyCode === 27 ) ) {
+            mOverlay.setAttribute('aria-hidden', 'true');
+            modal.setAttribute('tabindex', '-1');
+            modalOpen = false;
+            lastFocus.focus();
+          }
+        }
+
+        function focusRestrict ( event ) {
+          if ( modalOpen && !modal.contains( event.target ) ) {
+            event.stopPropagation();
+            modal.focus();
+          }
+        }
+
+        mOverlay.addEventListener('click', function( e ) {
+          if (e.target == modal.parentNode) {
+             modalClose( e );
+           }
+        }, false);
+
+
+        // open modal by btn click/hit
+        mOpen.addEventListener('click', modalShow);
+
+        // close modal by btn click/hit
+        mClose.addEventListener('click', modalClose);
+
+        // close modal by keydown, but only if modal is open
+        document.addEventListener('keydown', modalClose);
+
+        // restrict tab focus on elements only inside modal window
+        for (i = 0; i < allNodes.length; i++) {
+          allNodes.item(i).addEventListener('focus', focusRestrict);
+        }
+
+      })();
+    </script>
+
+    <script>
+      function toggleItem(elem) {
+        for (var i = 0; i < elem.length; i++) {
+          elem[i].addEventListener("click", function(e) {
+            var current = this;
+            for (var i = 0; i < elem.length; i++) {
+              if (current != elem[i]) {
+                elem[i].classList.remove('selected');
+              } else if (current.classList.contains('selected') === true) {
+                current.classList.remove('selected');
+              } else {
+                current.classList.add('selected')
+              }
+            }
+            e.preventDefault();
+          });
+        };
+      }
+      toggleItem(document.querySelectorAll('.singleTrips'));
+    </script>
+
+
+    <script>
+      // Next Function
+       function next_function(section_name) {
+          var  first_element  = document.getElementById("select-service"),
+               second_element = document.getElementById("select-vehicle"),
+               third_element  = document.getElementById("materaial-type"),
+               fourth_element  = document.getElementById("shiping-details"),
+               fiveth_element = document.getElementById("last-step");
+
+          if(section_name == 'select_service'){
+              first_element.classList.add("hide_section");
+              second_element.classList.remove("hide_section");
+              third_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+          }else if(section_name == 'select_vehicle'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.remove("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else if(section_name == 'material_type'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.remove("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else if(section_name == 'shiping_details'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.remove("hide_section");
+          }else{
+
+          }          
+      }
+
+      // Previous Function
+      function previous_function(section_name) {
+          var  first_element  = document.getElementById("select-service"),
+               second_element = document.getElementById("select-vehicle"),
+               third_element  = document.getElementById("materaial-type"),
+               fourth_element  = document.getElementById("shiping-details"),
+               fiveth_element = document.getElementById("last-step");
+
+          if(section_name == 'select_service'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else if(section_name == 'select_vehicle'){
+              first_element.classList.remove("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else if(section_name == 'material_type'){
+              first_element.classList.add("hide_section");
+              second_element.classList.remove("hide_section");
+              third_element.classList.add("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else if(section_name == 'shiping_details'){
+              first_element.classList.add("hide_section");
+              second_element.classList.add("hide_section");
+              third_element.classList.remove("hide_section");
+              fourth_element.classList.add("hide_section");
+              fiveth_element.classList.add("hide_section");
+          }else{
+
+          }          
+      }
+
+    </script>
+    
+
+  </body>
+</html>
